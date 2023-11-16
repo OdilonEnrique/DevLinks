@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="light">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,9 +12,15 @@
   <body>
     <div id="container">
       <div id="profile">
-        <img src="./assets/assets/avatar.png" alt="" />
+        <img src="./img/avatar.png" alt="" />
         <p>@maykbrito</p>
       </div>
+
+      <div id="switch">
+        <button></button>
+        <span></span>
+      </div>
+
       <ul>
         <li>
           <a href="#">Me adicione no Linkedin</a>
@@ -23,12 +29,33 @@
           <a href="#">Meu portfólio</a>
         </li>
         <li>
-          <a href="#">Entre em contato comigo</a>
+          <a href="#">Mande uma mensagem</a>
         </li>
         <li>
-          <a href="#">Mande uma mensagem pelo e_mail</a>
+          <a href="#">Contato</a>
         </li>
       </ul>
+      <div id="socialLinks">
+        <a href="#">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        @<a href="#">OdilonEnrique</a>
+      </footer>
     </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
