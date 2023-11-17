@@ -31,6 +31,7 @@ body {
   background-size: cover; */
 
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -166,4 +167,14 @@ footer{
 
 footer a:hover{
   cursor: pointer;
+}
+
+@media (min-width: 700px){
+  :root{
+    --bg-url: url(./img/bg-desktop.jpg);
+  }
+
+  .light{
+    --bg-url: url(./img/bg-desktop-light.jpg);
+  }
 }
